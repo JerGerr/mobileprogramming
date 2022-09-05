@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View, TextInput, Alert } from 'react-native';
 import { useState } from 'react';
 
-export default function App() {
+export default function NumberGuessingGame() {
 
   const [random, setRandom] = useState(Math.floor(Math.random() * 100) + 1);
   const [value, setValue] = useState('');
