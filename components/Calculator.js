@@ -2,7 +2,7 @@ import React from'react';
 import { StyleSheet, Text, View, Button, TextInput} from 'react-native';
 
 
-export default function App() {
+export default function Calculator() {
     const [result, setResult] = React.useState(0);
     const [number1, setNumber1] = React.useState('');
     const [number2, setNumber2] = React.useState('');
